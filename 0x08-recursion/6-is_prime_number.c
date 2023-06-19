@@ -12,10 +12,10 @@ int is_prime_number(int n)
 	return (actual_prime(n, n - 1));
 }
 /**
- * actual_prime - check if a number is prime number recursively
+ * actual_prime - calculate if a number is prime number recursively
  * @n: number to be evaluate
  * @i: iterator
- * Return: 1 if it is prime number, 0 if it is not
+ * Return: 1 if n is prime, 0 if not
  */
 int actual_prime(int n, int i)
 {
