@@ -18,7 +18,7 @@ size_t free_listint_safe(listint_t **h)
 		{
 			tempo = (*h)->next;
 			free(*h);
-			*h = temp;
+			*h = tempo;
 			len++;
 		}
 		else
